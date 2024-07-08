@@ -1,0 +1,16 @@
+{% extends "main/base.html" %}
+
+{% block content %}
+{% include "main/nav.html" %}
+<div class="container">
+    <h1 class="center-align">Language</h1>
+    <div class="row">
+        <ul class="collection with-header">
+            {% for language in languages %}
+    <li class="collection-item">{{ language }}</li>
+    {% endfor %}
+          </ul>
+    </div>
+
+</div>
+{%endblock%}
