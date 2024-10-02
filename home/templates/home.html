@@ -1,0 +1,25 @@
+{% extends 'core/core.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'core/css/home.css' %}"> 
+{% endblock css %}
+{% block header %}
+
+<div class="header-section text-center mt-0">
+    <div class="text-white">
+        <h1 class="welcome-title">Welcome To My Portfolio</h1>
+    </div>
+    <img src="{% static 'core/image/ayaan.jpg' %}" alt="Profile-pic" width="200px" height="200px">
+    <div class="introduction mt-3">
+        <p class="introduction-text">
+            <span class="highlight-name">I'm Mohammad Ayaan Alam</span>, a passionate developer specializing in <span class="highlight-skill">Python</span> and <span class="highlight-skill">Django</span>.
+            With a Master's in Computer Applications, I have hands-on experience in building dynamic web applications 
+            that deliver exceptional user experiences. My portfolio includes diverse projects such as an e-commerce application, 
+            a blog platform, and an image uploader application, each showcasing my ability to create robust and user-friendly solutions.
+            <br><br>
+            I am eager to leverage my Django expertise to make a significant impact in a dynamic role within the tech industry. 
+            <span class="highlight">Let's connect</span> and explore how I can contribute to your team!
+        </p>        
+    </div>
+</div>
+{% endblock header %}

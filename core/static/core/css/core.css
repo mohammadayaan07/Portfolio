@@ -1,0 +1,81 @@
+/* core.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    height: 100vh; /* Ensure the container takes the full viewport height */
+}
+
+/* Sidebar styles */
+.col-sm-2 {
+    background-color: #343a40; /* Dark background for the sidebar */
+    color: #fff; /* White text */
+    padding: 20px; /* Padding for the sidebar */
+}
+
+.border-warning {
+    border-color: #cdcd32 !important; /* Bootstrap warning color */
+}
+
+.image-fluid {
+    border: 2px solid #eaed16; /* Profile image border */
+    border-radius: 50%; /* Circular profile image */
+}
+
+.nav-link {
+    color: #ffffff; /* White links */
+    font-size: 1.2rem; /* Larger font size */
+    padding: 10px 15px; /* Spacing around links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+    background-color: rgba(255, 193, 7, 0.3); /* Light background on hover */
+    border-radius: 5px; /* Rounded corners on hover */
+}
+
+.social-links {
+    position: absolute;
+    bottom: 10px; /* Positioning at the bottom of the sidebar */
+    left: 60px;
+}
+
+.social-links a {
+    color: #ffc107; /* Icon color */
+    font-size: 2rem; /* Icon size */
+    margin-right: 15px; /* Spacing between icons */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.social-links a:hover {
+    transform: scale(1.4); /* Scale effect on hover */
+}
+
+hr.border-light {
+    border-top: 1px solid rgba(255, 255, 255, 0.3); /* Light horizontal line */
+}
+
+h5 {
+    text-align: center; /* Center text for the name */
+    font-size: 1.3rem; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    color: #ffc107; /* Use the theme color for the text */
+    text-transform: uppercase; /* Transform text to uppercase */
+    letter-spacing: 1px; /* Add spacing between letters */
+    margin: 5px 0; /* Add margin for spacing above and below */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add subtle shadow for depth */
+}
+
+
+/* Main content styles */
+.col-sm-10 {
+    background-color: #f8f9fa; /* Light background for the main content */
+    color: #212529; /* Dark text color for contrast */
+    padding: 20px; /* Padding for the main content */
+    height: 100vh; /* Ensure it takes the full height */
+    overflow-y: auto; /* Scrollable if content exceeds viewport height */
+}

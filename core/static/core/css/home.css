@@ -1,0 +1,72 @@
+/* General Styling for Header Section */
+.header-section {
+    padding: 100px 0;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); /* Adds a smooth gradient */
+    color: #fff;
+}
+
+.welcome-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Text shadow for effect */
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid #fff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Adds shadow to profile picture */
+    margin-top: 20px;
+    transition: transform 0.3s ease; /* Adds hover effect */
+}
+
+.profile-pic:hover {
+    transform: scale(1.1); /* Enlarges on hover */
+}
+
+.introduction {
+    margin-top: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introduction-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+.highlight {
+    color: #ffd700; /* Adds a pop of color to important text */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.highlight:hover {
+    color: #fff; /* Changes the highlight color on hover */
+}
+
+.header-content {
+    padding: 20px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    .welcome-title {
+        font-size: 2.5rem;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .introduction-text {
+        font-size: 1.1rem;
+    }
+}

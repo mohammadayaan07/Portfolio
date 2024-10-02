@@ -1,0 +1,36 @@
+{% extends 'core/core.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'core/css/pro.css' %}"> 
+{% endblock css %}
+
+{% block header %}
+<div class="projects-section">
+    <h2 class="section-title">Projects</h2>
+    
+    <!-- Blog Project -->
+    <div class="project-item">
+        <img src="{% static 'core/image/blog-project.png' %}" alt="Blog Project" class="project-image">
+        <div class="project-details">
+            <h3>Blog Website</h3>
+            <p>This project is a fully-functional blog website built with Django and Bootstrap. It allows users to read, comment on, and share blog posts. The site also includes features like user authentication, blog post management, and more.</p>
+            <a href="https://github.com/yourusername/blog-website" target="_blank" class="btn btn-custom">View on GitHub</a>
+            <a href="https://yourblogwebsite.com" target="_blank" class="btn btn-custom">Live Demo</a>
+        </div>
+    </div>
+
+    <!-- E-commerce Project -->
+    <div class="project-item">
+        <img src="{% static 'core/image/ecommerce-project.jpg' %}" alt="E-commerce Project" class="project-image">
+        <div class="project-details">
+            <h3>E-commerce Website</h3>
+            <p>This project is an e-commerce platform built with Django and integrated with a payment gateway. It features a product catalog, shopping cart, checkout process, and user management. The platform is responsive and scalable.</p>
+            <a href="https://github.com/yourusername/ecommerce-website" target="_blank" class="btn btn-custom">View on GitHub</a>
+            <a href="https://yourecommercewebsite.com" target="_blank" class="btn btn-custom">Live Demo</a>
+        </div>
+    </div>
+
+    <!-- Add more projects below -->
+
+</div>
+{% endblock header %}

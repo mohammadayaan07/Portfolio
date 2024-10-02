@@ -1,0 +1,128 @@
+/* General Contact Section Styling */
+.contact-section {
+  padding: 70px 0;
+  background: linear-gradient(135deg, #007bff, #00bfff); /* Keeps the gradient background */
+  color: #fff;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+/* Add a decorative underline for the title */
+.section-title::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-heading {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.icon {
+  margin-right: 15px;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #ffd700;
+}
+
+.btn-custom {
+  background-color: #ffd700;
+  color: #333;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  border-radius: 30px;
+}
+
+.btn-custom:hover {
+  background-color: #fff;
+  color: #007bff;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+/* Form Section Styling */
+.form-section {
+  background-color: #fff; /* Sets the form background to white */
+  padding: 50px;
+  border-radius: 15px; /* Adds rounded corners */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+  color: #333; /* Text color for the form */
+}
+
+.form-section input, 
+.form-section textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px; /* Rounded inputs */
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.form-section input::placeholder, 
+.form-section textarea::placeholder {
+  color: #999;
+}
+
+.form-section input:focus, 
+.form-section textarea:focus {
+  border-color: #007bff; /* Changes border color on focus */
+  outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-heading {
+    font-size: 1.5rem;
+  }
+
+  .btn-custom {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  .form-section {
+    padding: 30px; /* Adjust padding for smaller screens */
+  }
+}

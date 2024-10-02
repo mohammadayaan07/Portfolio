@@ -1,0 +1,64 @@
+.skills-section {
+    padding: 50px 0;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+.container {
+    max-width: 1200px; /* Limit the width for better readability */
+    margin: 0 auto; /* Center the container */
+}
+
+.row {
+    display: flex; /* Use flexbox for responsive layout */
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.skill-card {
+    background-color: white; /* White background for skill cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px;
+    margin: 10px; /* Space between cards */
+    flex: 1 1 280px; /* Responsive flex item */
+    transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.skill-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+.skill-title {
+    font-size: 1.5rem; /* Font size for skill title */
+    color: #007bff; /* Custom color for skill titles */
+    margin-bottom: 10px; /* Space below title */
+}
+
+.skill-level {
+    margin-top: 10px; /* Space above progress bar */
+}
+
+.progress {
+    background-color: #e0e0e0; /* Background for the progress bar */
+    border-radius: 5px; /* Rounded corners for the progress bar */
+    height: 20px; /* Height of the progress bar */
+}
+
+.progress-bar {
+    background-color: #007bff; /* Color for the progress */
+    border-radius: 5px; /* Rounded corners for the filled part */
+    height: 100%; /* Fill the entire height */
+    transition: width 0.5s; /* Smooth transition for width */
+    text-align: center; /* Center text within the progress */
+    color: white; /* White text color for percentage */
+    line-height: 20px; /* Center percentage text vertically */
+}

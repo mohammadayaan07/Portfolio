@@ -1,0 +1,57 @@
+/* home.css */
+
+/* Education Section Styles */
+.education-section {
+    background-color: #f8f9fa; /* Light background for the education section */
+    padding: 40px 15px; /* Padding around the section */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.section-title {
+    font-size: 2.5rem;               /* Increased title font size */
+    font-weight: bold;               /* Bold font for title */
+    color: #0a0a0b;    
+    padding: 10px;                   /* Padding around the text */
+    border-radius: 5px;              /* Rounded corners for the background */
+    margin-bottom: 30px;             /* Space below title */
+    text-transform: uppercase;       /* Uppercase for a stylish look */
+    letter-spacing: 1px;             /* Spacing between letters */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+.section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+
+.card {
+    border: none; /* Remove default border */
+    border-radius: 10px; /* Rounded corners for cards */
+    background-color: #ffffff; /* White background for cards */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Shadow on hover for emphasis */
+}
+
+.card-title {
+    font-size: 1.5rem; /* Font size for the degree */
+    color: #007bff; /* Primary color for the degree */
+}
+
+.card-subtitle {
+    font-size: 1.1rem; /* Font size for the university name */
+    color: #6c757d; /* Secondary color */
+}
+
+.card-text {
+    font-size: 1rem; /* Font size for card text */
+    color: #495057; /* Dark color for description text */
+}
